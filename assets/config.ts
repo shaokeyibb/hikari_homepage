@@ -31,32 +31,7 @@ export const config: Config = {
         {
             name: "GitHub",
             url: "https://github.com/shaokeyibb/hikari_homepage"
-        },
-        {
-            name: "GitHub",
-            url: "https://github.com/shaokeyibb/hikari_homepage"
-        },
-        {
-            name: "GitHub",
-            url: "https://github.com/shaokeyibb/hikari_homepage"
-        },
-        {
-            name: "GitHub",
-            url: "https://github.com/shaokeyibb/hikari_homepage"
-        },
-        {
-            name: "GitHub",
-            url: "https://github.com/shaokeyibb/hikari_homepage"
-        },
-        {
-            name: "GitHub",
-            url: "https://github.com/shaokeyibb/hikari_homepage"
-        },
-        {
-            name: "GitHub",
-            url: "https://github.com/shaokeyibb/hikari_homepage"
         }
-
     ],
     footerHtml: `
      <p>©2023 Hikari Homepage. | 
