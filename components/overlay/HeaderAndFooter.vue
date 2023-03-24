@@ -21,6 +21,8 @@ header {
   transform: translateX(-50%);
 
   width: 100%;
+  max-height: 10vh;
+  overflow: auto;
   padding: 10px;
 
   background-color: v-bind(primaryColor);
@@ -41,6 +43,8 @@ footer {
   transform: translateX(-50%);
 
   width: 100%;
+  max-height: 10vh;
+  overflow: auto;
   padding: 10px;
 
   background-color: v-bind(computedHeaderAndFooterBackgroundColor);
