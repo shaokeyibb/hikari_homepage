@@ -28,7 +28,7 @@ const textColor = config.theme.textColor
   border-radius: 5px;
 
   height: 52px;
-  min-width: 92px;
+  min-width: 82px;
 
   padding: 0 20px;
   margin: 10px;

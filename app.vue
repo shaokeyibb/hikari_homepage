@@ -16,7 +16,7 @@
     </div>
     <div v-if="config.socialMedia" class="social-media-container">
       <template v-for="element in config.socialMedia">
-        <SocialMediaButton :name="element.name" :url="element.url"/>
+        <SocialMediaButton class="social-media-container___child" :name="element.name" :url="element.url"/>
       </template>
     </div>
     <template v-if="config.extraHtml" v-html="config.extraHtml"/>
@@ -62,12 +62,9 @@ body {
 }
 
 .avatar-container {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
   width: v-bind(computedAvatarSize);
   height: v-bind(computedAvatarSize);
+  flex-shrink: 0;
 
   transition: .5s;
 }
@@ -90,9 +87,6 @@ body {
 .social-media-container {
   display: flex;
   flex-direction: row;
-
-  max-height: 100%;
-  max-width: 100%;
 
   flex-wrap: wrap;
 }

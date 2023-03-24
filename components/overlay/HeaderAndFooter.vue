@@ -26,6 +26,8 @@ header {
   background-color: v-bind(primaryColor);
   text-align: center;
   color: v-bind(textColor);
+
+  z-index: 999;
 }
 
 header :deep(a) {
@@ -44,6 +46,8 @@ footer {
   background-color: v-bind(computedHeaderAndFooterBackgroundColor);
   text-align: center;
   color: v-bind(textColor);
+
+  z-index: 999;
 }
 
 footer :deep(a) {
