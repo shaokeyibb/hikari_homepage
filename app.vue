@@ -33,7 +33,7 @@ import SocialMediaButton from "~/components/SocialMediaButton.vue";
 const primaryColor = config.theme.primaryColor
 const secondaryColor = config.theme.secondaryColor
 const surfaceColor = config.theme.surfaceColor
-const textColor = config.theme.textColor
+const textColor = config.theme.onSurfaceTextColor
 
 const computedAnimatedUnderlineTextBackground = `linear-gradient(to right, ${secondaryColor}, ${secondaryColor}) no-repeat left bottom`
 

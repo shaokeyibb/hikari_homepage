@@ -15,7 +15,7 @@ defineProps<{
 }>()
 
 const primaryColor = config.theme.primaryColor
-const textColor = config.theme.textColor
+const textColor = config.theme.onSurfaceTextColor
 </script>
 
 <style scoped>
