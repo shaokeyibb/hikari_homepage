@@ -52,5 +52,6 @@ const computedSrc = computed(() => {
   background-image: v-bind(computedSrc);
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
