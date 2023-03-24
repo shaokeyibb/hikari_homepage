@@ -19,7 +19,7 @@
         <SocialMediaButton class="social-media-container___child" :name="element.name" :url="element.url"/>
       </template>
     </div>
-    <template v-if="config.extraHtml" v-html="config.extraHtml"/>
+    <div class="extra-html-container" v-if="config.extraHtml" v-html="config.extraHtml"/>
   </MainPanel>
 </template>
 
