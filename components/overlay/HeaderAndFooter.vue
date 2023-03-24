@@ -6,11 +6,11 @@
 <script setup lang="ts">
 import {config} from "assets/config";
 
-const primaryColor = config.theme.primaryColor
+const headerColor = config.theme.headerColor
+const footerColor = config.theme.footerColor
 const secondaryColor = config.theme.secondaryColor
-const textColor = config.theme.textColor
-
-const computedHeaderAndFooterBackgroundColor = `${primaryColor}AA`
+const headerTextColor = config.theme.onHeaderTextColor
+const footerTextColor = config.theme.onFooterTextColor
 </script>
 
 <style scoped>
@@ -25,9 +25,9 @@ header {
   overflow: auto;
   padding: 10px;
 
-  background-color: v-bind(primaryColor);
+  background-color: v-bind(headerColor);
   text-align: center;
-  color: v-bind(textColor);
+  color: v-bind(headerTextColor);
 
   z-index: 999;
 }
@@ -47,9 +47,9 @@ footer {
   overflow: auto;
   padding: 10px;
 
-  background-color: v-bind(computedHeaderAndFooterBackgroundColor);
+  background-color: v-bind(footerColor);
   text-align: center;
-  color: v-bind(textColor);
+  color: v-bind(footerTextColor);
 
   z-index: 999;
 }

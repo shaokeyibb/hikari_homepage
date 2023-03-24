@@ -14,11 +14,27 @@ export const config: Config = {
             blur: "10px"
         }
     },
+    panel: {
+        filter: {
+            blur: "20px",
+            contrast: "1.5"
+        },
+        shadow: {
+            offsetX: "0",
+            offsetY: "0",
+            blurRadius: "50px",
+            color: "rgba(0 0 0/ 25%)",
+        }
+    },
     theme: {
-        primaryColor: "#66CCFF",
-        secondaryColor: "#41f519",
-        surfaceColor: "rgba(255,255,255,0.5)",
-        textColor: "#000",
+        primaryColor: "#00b894",
+        secondaryColor: "#f5af19",
+        surfaceColor: "rgba(255,255,255,0.3)",
+        onSurfaceTextColor: "#000",
+        headerColor: "rgba(0,0,0, 0.4)",
+        onHeaderTextColor: "#FFF",
+        footerColor: "rgba(0,0,0, 0.4)",
+        onFooterTextColor: "#FFF",
     },
     borderRadius: '10px',
     avatar: {
@@ -64,11 +80,36 @@ declare type Config = {
             sepia?: string,
         }
     },
+    panel?: {
+        filter?: {
+            blur?: string,
+            brightness?: string,
+            contrast?: string,
+            dropShadow?: string,
+            grayscale?: string,
+            hueRotate?: string,
+            invert?: string,
+            opacity?: string,
+            saturate?: string,
+            sepia?: string,
+        },
+        shadow?: {
+            offsetX?: string,
+            offsetY?: string,
+            blurRadius?: string,
+            spreadRadius?: string,
+            color?: string,
+        }
+    }
     theme: {
         primaryColor: string,
         secondaryColor: string,
         surfaceColor: string,
-        textColor: string
+        onSurfaceTextColor: string,
+        headerColor: string,
+        onHeaderTextColor: string,
+        footerColor: string,
+        onFooterTextColor: string,
     },
     borderRadius?: string,
     avatar?: {
