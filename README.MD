@@ -29,11 +29,27 @@ export const config: Config = {
             blur: "10px"
         }
     },
+    panel: {
+        filter: {
+            blur: "20px",
+            contrast: "1.5"
+        },
+        shadow: {
+            offsetX: "0",
+            offsetY: "0",
+            blurRadius: "50px",
+            color: "rgba(0 0 0/ 25%)",
+        }
+    },
     theme: {
-        primaryColor: "#66CCFF",
-        secondaryColor: "#41f519",
-        surfaceColor: "rgba(255,255,255,0.5)",
-        textColor: "#000",
+        primaryColor: "#00b894",
+        secondaryColor: "#f5af19",
+        surfaceColor: "rgba(255,255,255,0.3)",
+        onSurfaceTextColor: "#000",
+        headerColor: "rgba(0,0,0, 0.4)",
+        onHeaderTextColor: "#FFF",
+        footerColor: "rgba(0,0,0, 0.4)",
+        onFooterTextColor: "#FFF",
     },
     borderRadius: '10px',
     avatar: {
