@@ -89,5 +89,6 @@ body {
   flex-direction: row;
 
   flex-wrap: wrap;
+  justify-content: center;
 }
 </style>
