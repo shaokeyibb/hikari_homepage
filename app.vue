@@ -67,6 +67,8 @@ body {
   flex-shrink: 0;
 
   transition: .5s;
+
+  clip-path: circle(50% at 50% 50%);
 }
 
 .avatar-container:hover {
